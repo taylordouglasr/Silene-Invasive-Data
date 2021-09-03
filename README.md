@@ -16,7 +16,9 @@ In addition, "Parse Invasives Data,py" summarizes the data for each plant across
 
 The only data yet to be incorprated is the weather data...but I think we can leave that until/if we need it.
 
-Lat time we analyzed the data we did calculate PCAs and analzye them. If we choose to do this it is worth noting that males have missing values for all fruit-related traits. PCA would have to exclude those traits or be done separately on the sexes. Paradoxically, the vegetative plants ('sex' = V) have zeroes for the fruit traits, so that is a remaining oddity which will come up. After contemplating how these gender categories affect our analysis ...
+It is worth noting that males have missing values for all fruit-related traits, and paradoxially, the vegetative plants ('sex' = V) have zeroes for the fruit traits, so that is a remaining oddity which will come up. After contemplating how these gender categories affect our analysis ...
+
+Jupyter notebooks from Peter Fields and Doug Taylor in the analysis folder show the data will resist being normalized and offer a PCA of the data (excluding fruit traits) if we choose to analyze things that way. 
 
 Analyses to be done.
 - GLM models to study variation in trait means.
