@@ -20,8 +20,8 @@ def len_unique(list1):
     z = len(y)
     return z
 
-
 print("This generates a python dataframe and .CSV file for the Common Garden data...", "\n")
+
 
 # These is the raw data used to generate the results from Dexter's thesis.
 inv_data = pd.read_csv(r'2021 Common Garden Data Working Copy.csv', header=0)
@@ -130,6 +130,8 @@ inv_data = inv_data.drop(columns=['tempindex1', 'tempindex2'])
 inv_data = inv_data.replace('?', '')
 # There is a strange entry for survival, 'DUG' which is a description of how the plant died. Replace with D
 inv_data = inv_data.replace('DUG', 'D')
+# There is a type in one of the population names
+inv_data = inv_data.replace('RWI', 'RVVW')
 
 # Sex is messed up ... there are values other than M, F and missing data...
 # This function generates a list of the values in a variable, in this case it was
