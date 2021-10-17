@@ -22,7 +22,7 @@ Jupyter notebooks from Peter Fields and Doug Taylor in the analysis folder show 
 
 Analyses to be done.
 - GLM models to study variation in trait means.
-  * See [here](https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html) and [here](https://ase.tufts.edu/bugs/guide/assets/mixed_model_guide.html) for resourceds on coding GLMs in R
+  * See [here](https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html) and [here](https://ase.tufts.edu/bugs/guide/assets/mixed_model_guide.html) for resources on coding GLMs in R
 - Selection analyses on traits
 - FST/QST
 - G matrix estiamtion, and degree of change.
